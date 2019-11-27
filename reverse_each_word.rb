@@ -5,6 +5,6 @@
 
 def reverse_each_word(string)
   array = string.split(' ')
-  array.each(||)
+  array.each(|word| word.reverse)
   array.each{ |num| total += num }
 end 
