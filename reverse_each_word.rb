@@ -9,4 +9,5 @@ def reverse_each_word(string)
   result = array.each{ |word| new.push(word.reverse)}
   # array.each{ |num| total += num }
   result.join(" ")
+  puts
 end 
