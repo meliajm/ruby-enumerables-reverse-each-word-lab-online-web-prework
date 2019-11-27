@@ -6,10 +6,12 @@
 def reverse_each_word(string)
   array = string.split(' ')
   new = []
+  new1 = []
   array.each{ |word| new.push(word.reverse) }
+  array.collect {|word| new1.push(word.reverse) }
   new.join(" ")
   
-  array.collect {|word| new.push(word.reverse) }
+  
 end 
 
 # def reverse_each_word(str)
