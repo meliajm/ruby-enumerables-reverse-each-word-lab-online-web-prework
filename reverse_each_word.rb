@@ -5,7 +5,8 @@
 
 def reverse_each_word(string)
   array = string.split(' ')
-  result = array.each{ |word| word.reverse}
+  new = []
+  result = array.each{ |word| new.push(word.reverse)}
   # array.each{ |num| total += num }
   result.join(" ")
 end 
