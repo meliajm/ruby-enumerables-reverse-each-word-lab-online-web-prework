@@ -3,4 +3,6 @@
 # reverse each element in array and use join to put out again
 
 
-def 
+def reverse_each_word(string)
+  array = string.split(' ')
+end 
