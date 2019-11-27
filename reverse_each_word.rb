@@ -8,11 +8,13 @@ def reverse_each_word(string)
   new = []
   array.each{ |word| new.push(word.reverse) }
   new.join(" ")
+  
+  array.collect {|word| new.push(word.reverse) }
 end 
 
-def reverse_each_word(str)
-  array = string.split(" ")
-  new = []
-  array.collect {|word| new.push(word.reverse) }
-  new.join(" ")
-end
+# def reverse_each_word(str)
+#   array = string.split(" ")
+#   new = []
+#   array.collect {|word| new.push(word.reverse) }
+#   new.join(" ")
+# end
